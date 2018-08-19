@@ -1,0 +1,14 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - ipython
+  - jupyter
+  - dxfwrite
+  - numpy
+  - matplotlib
+  - nb_conda
+  - scipy
+  - pip:
+    - dxfwrite
